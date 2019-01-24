@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HPQ2</string>
+    <string name="harry_potter_quiz">Harry Potter Quiz</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="next">Next</string>
+    <string name="name">Name</string>
+    <string name="_4">4</string>
+    <string name="answer">Answer1</string>
+    <string name="question">Question</string>
+    <string name="_1">1</string>
+    <string name="dialog_text">dialog-text</string>
+    <string name="name1">NAME</string>
+    <string name="score1">SCORE</string>
+    <string name="do_it_again">Do it Again!</string>
+</resources>

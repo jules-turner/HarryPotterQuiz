@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/hog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".House">
+
+    <Button
+        android:id="@+id/SlyButton"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:layout_width="146dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="60dp"
+        android:text="Slythrin"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RavButton" />
+
+    <Button
+        android:id="@+id/HuffButton"
+        android:background="@color/yellow"
+        android:textColor="@color/black"
+        android:layout_width="146dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:text="Hufflefuff"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GryButton" />
+
+    <Button
+        android:id="@+id/RavButton"
+        android:background="@color/navy"
+        android:textColor="@color/white"
+        android:layout_width="146dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="80dp"
+        android:text="Ravenclaw"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="What is your Hogwarts house?"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/GryButton"
+        android:background="@color/maroon"
+        android:textColor="@color/white"
+        android:layout_width="146dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:text="Gryffindor"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="47dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:text=" ? "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>
